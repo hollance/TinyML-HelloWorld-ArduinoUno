@@ -21,7 +21,7 @@ inline float b1(int i) {
     return pgm_read_float_near(b1_data + i);
 }
 
-inline float W3(int i, int j) {
+inline float W2(int i, int j) {
   return pgm_read_float_near(W2_data + i*DENSE1_SIZE + j);  
 }
 

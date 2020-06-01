@@ -24,7 +24,7 @@ float predict(float x) {
         // row of the W2 matrix.
         float h2(0.0f);
         for (int j = 0; j < DENSE1_SIZE; ++j) {
-            h2 += h1[j] * W3(i, j);
+            h2 += h1[j] * W2(i, j);
         }
         h2 = relu(h2 + b2(i));
 
